@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* --- */
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family:'Orbitron';
+}
+
+/* --- */
+
+#container {
+  height: 100vh;
+
+  padding: 10px;
+
+  background-color: rgb(104, 217, 255);
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.5)
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- */
+
+h1{
+  font-size: 2.5em;
+  color: aqua, green ;
+  margin-bottom: 10%;
+}
+
+
+.title{
+  display: flex;
+  justify-content: space-between;
+
+  height: 10vh;
+  width: 40vw;
+
+  font-size: 2rem;
+}
+
+.contador{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 20vh;
+  width: 95vw;
+
+  background-color: rgb(196, 196, 196);
+  box-shadow: 5px 5px 10px black;
+
+  border-radius: 20px;
+
+  font-size: 2.2rem;
+}
+
+.aumentar, .disminuir, .empezar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100px;
+  width: 100px;
+  background-color: rgb(128, 255, 255);
+
+  border-radius: 50%;
+  border-style: groove;
+
+  box-shadow: 3px 3px 8px black;
+
+  font-size: 3rem;
+  color: black;
+}
+
+.empezar{
+  height: 10vh;
+  width: 20vw;
+  margin: 3%;
+
+  background-color: rgb(128, 255, 255);
+  box-shadow: 5px 5px 10px black;
+  font-size: 2rem;
+  color: black;
+
+}
